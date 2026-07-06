@@ -1,6 +1,6 @@
+## Example: JavaScript Callback with While Loop
 
-
-/*
+```javascript
 // Callback function to print current date and time
 function printDateTime() {
     let now = new Date();
@@ -37,4 +37,3 @@ function runOperation(callback, durationMs) {
 
 // Run for 5 seconds
 runOperation(printDateTime, 5000);
-*/
